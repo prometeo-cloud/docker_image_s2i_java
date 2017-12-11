@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+  <uuid>ea15590e-7162-4d4b-af7f-20c4608cc8c0</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.jboss.spec.javax.ejb</groupId>
+      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+      <version>1.0.2.Final</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/java/jboss-ejb-3.1-api.jar</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>5359b7f0-e121-43fd-8c5b-70d718cc9df1</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+    <artifact>
+      <groupId>org.jboss.spec.javax.ejb</groupId>
+      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+      <extension>pom</extension>
+      <version>1.0.2.Final</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/maven-poms/jboss-ejb-3.1-api.pom</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>738af5a4-d391-4640-8a70-b0d34cd8da5c</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+  </artifacts>
+  <skippedArtifacts>
+    <skippedArtifact>
+      <groupId>org.jboss.spec.javax.ejb</groupId>
+      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+      <classifier>sources</classifier>
+    </skippedArtifact>
+  </skippedArtifacts>
+</metadata>

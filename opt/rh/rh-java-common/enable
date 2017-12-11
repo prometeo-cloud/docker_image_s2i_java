@@ -1,0 +1,8 @@
+# Generic variables
+export PATH="/opt/rh/rh-java-common/root/usr/bin:${PATH:-/bin:/usr/bin}"
+export MANPATH="/opt/rh/rh-java-common/root/usr/share/man:${MANPATH}"
+export PYTHONPATH="/opt/rh/rh-java-common/root/usr/lib/python2.7/site-packages${PYTHONPATH:+:}${PYTHONPATH:-}"
+
+export JAVACONFDIRS="/opt/rh/rh-java-common/root/etc/java${JAVACONFDIRS:+:}${JAVACONFDIRS:-}"
+export XDG_CONFIG_DIRS="/opt/rh/rh-java-common/root/etc/xdg:${XDG_CONFIG_DIRS:-/etc/xdg}"
+export XDG_DATA_DIRS="/opt/rh/rh-java-common/root/usr/share:${XDG_DATA_DIRS:-/usr/local/share:/usr/share}"

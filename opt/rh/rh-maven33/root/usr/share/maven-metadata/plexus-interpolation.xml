@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+  <uuid>568a11c7-ddc3-4b8e-a6be-8aa08704a17e</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.codehaus.plexus</groupId>
+      <artifactId>plexus-interpolation</artifactId>
+      <version>1.21</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/java/plexus/interpolation.jar</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>0ba7d116-0df4-41a7-b4ad-32ca026f45d4</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+    <artifact>
+      <groupId>org.codehaus.plexus</groupId>
+      <artifactId>plexus-interpolation</artifactId>
+      <extension>pom</extension>
+      <version>1.21</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/maven-poms/plexus/interpolation.pom</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>5872a11b-ff54-495a-a81c-83e1432c1505</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+  </artifacts>
+  <skippedArtifacts>
+    <skippedArtifact>
+      <groupId>org.codehaus.plexus</groupId>
+      <artifactId>plexus-interpolation</artifactId>
+      <classifier>sources</classifier>
+    </skippedArtifact>
+  </skippedArtifacts>
+</metadata>

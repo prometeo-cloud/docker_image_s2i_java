@@ -1,0 +1,10 @@
+. /opt/rh/rh-java-common/enable
+
+# Generic variables
+export PATH="/opt/rh/rh-maven33/root/usr/bin:${PATH:-/bin:/usr/bin}"
+export MANPATH="/opt/rh/rh-maven33/root/usr/share/man${MANPATH:+:}${MANPATH:-}"
+export PYTHONPATH="/opt/rh/rh-maven33/root/usr/lib/python2.7/site-packages${PYTHONPATH:+:}${PYTHONPATH:-}"
+
+export JAVACONFDIRS="/opt/rh/rh-maven33/root/etc/java${JAVACONFDIRS:+:}${JAVACONFDIRS:-}"
+export XDG_CONFIG_DIRS="/opt/rh/rh-maven33/root/etc/xdg:${XDG_CONFIG_DIRS:-/etc/xdg}"
+export XDG_DATA_DIRS="/opt/rh/rh-maven33/root/usr/share:${XDG_DATA_DIRS:-/usr/local/share:/usr/share}"

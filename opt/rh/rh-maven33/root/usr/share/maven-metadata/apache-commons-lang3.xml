@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+  <uuid>a1c3b58c-230b-4bd9-b2e4-96492b300144</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.4</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/java/apache-commons-lang3.jar</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>e7ee711e-6d99-46dd-bc35-fd0ce50b0a96</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+    <artifact>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <extension>pom</extension>
+      <version>3.4</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/maven-poms/apache-commons-lang3.pom</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>2b130889-1f98-4e35-aa20-e8232fe7764f</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+  </artifacts>
+</metadata>

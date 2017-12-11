@@ -1,0 +1,20 @@
+<!-- Metadata for com.sun:tools so that packages don't
+     need to use system scope and provide systemPath. -->
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+    <artifacts>
+        <artifact>
+            <namespace>rh-java-common</namespace>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <version>SYSTEM</version>
+            <path>${JAVA_HOME}/../lib/tools.jar</path>
+        </artifact>
+        <artifact>
+            <namespace>rh-java-common</namespace>
+            <groupId>sun.jdk</groupId>
+            <artifactId>jconsole</artifactId>
+            <version>SYSTEM</version>
+            <path>${JAVA_HOME}/../lib/jconsole.jar</path>
+        </artifact>
+    </artifacts>
+</metadata>

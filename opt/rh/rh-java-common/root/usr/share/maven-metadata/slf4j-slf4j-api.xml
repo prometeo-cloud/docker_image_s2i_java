@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+  <uuid>cc562751-aa45-404d-8aaa-714abab1a213</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.4</version>
+      <path>/opt/rh/rh-java-common/root/usr/share/java/slf4j/slf4j-api.jar</path>
+      <namespace>rh-java-common</namespace>
+      <uuid>2a14effa-372e-4139-909c-1603106af467</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+    <artifact>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <extension>pom</extension>
+      <version>1.7.4</version>
+      <path>/opt/rh/rh-java-common/root/usr/share/maven-poms/slf4j/slf4j-api.pom</path>
+      <namespace>rh-java-common</namespace>
+      <uuid>27719b99-3247-4adc-b8ad-2effcd48c01a</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+  </artifacts>
+</metadata>

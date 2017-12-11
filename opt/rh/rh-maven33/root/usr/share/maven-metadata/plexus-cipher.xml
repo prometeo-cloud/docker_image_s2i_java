@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+  <uuid>0871b110-d93d-4057-877f-916bdf2e9dfc</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.sonatype.plexus</groupId>
+      <artifactId>plexus-cipher</artifactId>
+      <version>1.7</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/java/plexus/plexus-cipher.jar</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>cc550ba7-a6d5-4ddc-9c0e-fed2ae84e96f</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+    <artifact>
+      <groupId>org.sonatype.plexus</groupId>
+      <artifactId>plexus-cipher</artifactId>
+      <extension>pom</extension>
+      <version>1.7</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/maven-poms/plexus/plexus-cipher.pom</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>6f2db594-7ece-4436-89af-eb940ee4efd1</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+  </artifacts>
+  <skippedArtifacts>
+    <skippedArtifact>
+      <groupId>org.sonatype.plexus</groupId>
+      <artifactId>plexus-cipher</artifactId>
+      <classifier>sources</classifier>
+    </skippedArtifact>
+  </skippedArtifacts>
+</metadata>

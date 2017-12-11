@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+  <uuid>c94070b7-4b91-4798-99fe-355f584b392a</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.jboss.spec.javax.interceptor</groupId>
+      <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+      <version>1.0.2.Final-SNAPSHOT</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/java/jboss-interceptors-1.1-api.jar</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>867f7def-ac96-4f65-be9a-72aa359e892c</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+    <artifact>
+      <groupId>org.jboss.spec.javax.interceptor</groupId>
+      <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+      <extension>pom</extension>
+      <version>1.0.2.Final-SNAPSHOT</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/maven-poms/jboss-interceptors-1.1-api.pom</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>ada4d500-046d-4d3d-b18e-c3fdf76eb756</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+  </artifacts>
+  <skippedArtifacts>
+    <skippedArtifact>
+      <groupId>org.jboss.spec.javax.interceptor</groupId>
+      <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+      <classifier>sources</classifier>
+    </skippedArtifact>
+  </skippedArtifacts>
+</metadata>

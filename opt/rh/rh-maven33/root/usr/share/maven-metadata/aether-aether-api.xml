@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://fedorahosted.org/xmvn/METADATA/2.0.0">
+  <uuid>b93a8f5f-319f-4371-97c8-2d1fb7dd0dea</uuid>
+  <artifacts>
+    <artifact>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-api</artifactId>
+      <version>1.0.2.v20150114</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/java/aether/aether-api.jar</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>ad6cc956-d7fe-4416-b70c-3a86fa04cff7</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+    <artifact>
+      <groupId>org.eclipse.aether</groupId>
+      <artifactId>aether-api</artifactId>
+      <extension>pom</extension>
+      <version>1.0.2.v20150114</version>
+      <path>/opt/rh/rh-maven33/root/usr/share/maven-poms/aether/aether-api.pom</path>
+      <namespace>rh-maven33</namespace>
+      <uuid>67b10739-c41c-4463-9862-65cf4c7786d9</uuid>
+      <properties>
+        <type>jar</type>
+      </properties>
+    </artifact>
+  </artifacts>
+</metadata>
