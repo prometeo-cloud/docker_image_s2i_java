@@ -21,10 +21,10 @@ LABEL io.k8s.description="S2I image to build applications which use Java 8." \
       io.openshift.s2i.destination=/tmp
 
 # copy s2i scripts
-COPY ../.s2i/bin/ /usr/local/s2i
+COPY ./.s2i/bin/ /usr/local/s2i
 
 # copy hawkular and jolokia configuration
-COPY ../opt/ /opt/
+COPY ./opt/ /opt/
 
 # configure ownership and permissions
 RUN mkdir -p /opt/jolokia/etc && chmod -R a+w /opt/jolokia/etc && \
